@@ -6,10 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8419d69b0d.js" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Booki</title>
 </head>
 <body>
+
+    <!--La partie header-->
+    <header>
+        <a href="#">
+            <img class="logo" src="./images/logo/Booki.png" alt="Logo booki"></div>
+        </a>
+        <nav>
+            <div id="container_nav"> 
+                <ul>
+                    <div class="lien_h"><li class="link"><a href="#">Hébergements</a></li></div>
+                    <div class="lien_a"><li class="link"><a href="#">Activités</a></li></div>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!--La partie main-->
+    <main>
+        <div id="main-top">
+         <h1>Trouvez votre hebergement pour des vacances de reve</h1>
+        <p>En plein centre-ville ou pleine nature</p>
+        </div>
     
+        <!--form à faire-->
+        <form class="bloc_recherche">
+            <div id="icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+      <input class="barre_recherche" type="search" name="recherche" placeholder="Marseille, France">
+
+      <button class="bouton_rechercher">Rechercher</button>
+      <button class="fa-solid fa-magnifying-glass" id="bouton_rechercher_phone"></button>
+      </form>
+
+      <div class="rechercher_filtre">
+        <h2>
+           Filtres
+       </h2>
+   
+       <!-- Bouton économique -->
+   <div>
+        <i class="fa-solid fa-money-bill-wave"></i>Économiques
+    </div>
+     
+   <!-- Bouton familiale -->
+   <div>
+    <i class="fa-solid fa-child"></i>Familial
+</div>
+   
+   <!-- Bouton romantique -->
+   <div>
+    <i class="fa-solid fa-heart"></i>Romantique
+</div>
+   
+   <!-- Bouton animaux autorisés -->
+   <div>
+    <i class="fa-solid fa-dog"></i>Animaux autorisés
+</div>
+
+</div>
+<div class="info">
+    <i class="fa-solid fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
+</div>
+</main>
+   
 </body>
 </html>
